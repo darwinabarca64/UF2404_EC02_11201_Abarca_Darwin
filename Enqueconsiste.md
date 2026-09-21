@@ -1,53 +1,21 @@
-# Memoria Técnica y Guía de Defensa Oral — MF0227_3 / UF2404
-
-**Certificado de Profesionalidad:** IFCD0112 — Programación con lenguajes orientados a objetos y bases de datos relacionales  
-**Módulo:** MF0227_3: Programación orientada a objetos  
-**Unidad Formativa:** UF2404: Principios de la programación orientada a objetos  
-**Código del Curso:** 25/FOAP/781/0195046/001  
-**Entorno de Ejecución:** Python 3.12+ (Sin librerías externas / PEP 8 estricto)
+# Respuestas para entender mejor — MF0227_3 / UF2404
 
 ---
 
-## 1. Portada Técnica y Estrategia de Selección Oficial
-
-### 1.1. Matriz Completa de Ponderación Oficial (Página 17 del PDF)
+## 1. Índice
 
 | Ejercicio | Denominación del Problema | Puntuación Oficial | Archivo de Código |
 | :---: | :--- | :---: | :--- |
-| **01** | Reparar un diseño defectuoso (Mutabilidad y Ámbitos) | 0,5 puntos | [`ejercicio_01.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_01.py) |
-| **02** | Reserva de plazas (Aforos y Encapsulación) | 0,6 puntos | [`ejercicio_02.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_02.py) |
-| **03** | Figuras sin modificar la función (Polimorfismo / OCP) | 0,8 puntos | [`ejercicio_03.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_03.py) |
-| **04** | Historial bancario (Atomicidad y Aliasing Bug) | 0,8 puntos | [`ejercicio_04.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_04.py) |
-| **05** | Refactorización de pedidos (Strategy Pattern) | 1,0 punto | [`ejercicio_05.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_05.py) |
-| **06** | Sistema de inventario (Catálogo $O(1)$) | 0,8 puntos | [`ejercicio_06.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_06.py) |
-| **07** | Clases colaborativas (Ecosistema Curso / Persona) | 1,2 puntos | [`ejercicio_07.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_07.py) |
-| **08** | Código desconocido (MRO y herencia cooperativa) | 2,1 puntos | [`ejercicio_08.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_08.py) |
-| **09** | Sistema de préstamos (Referencias a objetos en memoria) | 2,7 puntos | [`ejercicio_09.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_09.py) |
-| **10** | Sistema extensible de pedidos (Arquitectura OCP) | 3,3 puntos | [`ejercicio_10.py`](file:///c:/Users/Dar/Desktop/Python/examen%20py/ejercicio_10.py) |
-
----
-
-### 1.2. Declaración de los 5 Ejercicios Seleccionados para Evaluación
-
-Siguiendo las normas de evaluación descritas en las páginas 17 a 20 del PDF, se declara la siguiente selección formal de **5 ejercicios** para la calificación del examen:
-
-$$\mathbf{\text{Selección Oficial}} = \{ \text{Ejercicio 5}, \text{Ejercicio 7}, \text{Ejercicio 8}, \text{Ejercicio 9}, \text{Ejercicio 10} \}$$
-
-$$\text{Puntuación Sumada} = 1,0 + 1,2 + 2,1 + 2,7 + 3,3 = \mathbf{10,3 \text{ puntos sobre } 10,0} \longrightarrow \mathbf{\text{Calificación: 10,0 / 10,0}}$$
-
-#### Justificación Técnica de la Estrategia:
-1. **Cumplimiento de la restricción obligatoria:** El reglamento estipula que es mandatorio incluir al menos un ejercicio del bloque avanzado $\{8, 9, 10\}$ para poder optar al aprobado. Nuestra selección incluye los tres ejercicios de mayor complejidad técnica (8, 9 y 10).
-2. **Superación de la barrera de 5 puntos:** Seleccionar únicamente ejercicios básicos (1, 2, 3, 4 y 6) sumaría un máximo de 3,5 puntos, resultando en suspenso automático.
-3. **Margen de seguridad:** La combinación elegida suma **10,3 puntos**, garantizando la nota máxima (10/10) incluso ante posibles penalizaciones menores.
-
----
-
-### 1.3. Criterios de Evaluación para la Defensa Oral (Página 16 del PDF)
-
-* **40% Funcionamiento y Casos Límite:** El software no falla, previene estados corruptos y gestiona tipos inválidos.
-* **25% Diseño POO:** Responsabilidad única (SRP), encapsulación estricta, herencia justificada, polimorfismo dinámico y composición.
-* **15% Calidad del Código:** Nombres descriptivos, ausencia de código duplicado (DRY), tipado con Type Hints y cumplimiento estricto de PEP 8.
-* **20% Defensa y Modificación en Directo:** Capacidad del alumno para explicar el porqué de cada decisión, predecir el comportamiento del intérprete y realizar cambios en vivo en menos de 5 líneas de código.
+| **01** | Reparar un diseño defectuoso (Mutabilidad y Ámbitos) | 0,5 puntos | [`ejercicio_01.py`](ejercicio_01.py) |
+| **02** | Reserva de plazas (Aforos y Encapsulación) | 0,6 puntos | [`ejercicio_02.py`](ejercicio_02.py) |
+| **03** | Figuras sin modificar la función (Polimorfismo / OCP) | 0,8 puntos | [`ejercicio_03.py`](ejercicio_03.py) |
+| **04** | Historial bancario (Atomicidad y Aliasing Bug) | 0,8 puntos | [`ejercicio_04.py`](ejercicio_04.py) |
+| **05** | Refactorización de pedidos (Strategy Pattern) | 1,0 punto | [`ejercicio_05.py`](ejercicio_05.py) |
+| **06** | Sistema de inventario (Catálogo $O(1)$) | 0,8 puntos | [`ejercicio_06.py`](ejercicio_06.py) |
+| **07** | Clases colaborativas (Ecosistema Curso / Persona) | 1,2 puntos | [`ejercicio_07.py`](ejercicio_07.py) |
+| **08** | Código desconocido (MRO y herencia cooperativa) | 2,1 puntos | [`ejercicio_08.py`](ejercicio_08.py) |
+| **09** | Sistema de préstamos (Referencias a objetos en memoria) | 2,7 puntos | [`ejercicio_09.py`](ejercicio_09.py) |
+| **10** | Sistema extensible de pedidos (Arquitectura OCP) | 3,3 puntos | [`ejercicio_10.py`](ejercicio_10.py) |
 
 ---
 

@@ -1,10 +1,5 @@
 # INFORME DE AUDITORÍA TÉCNICA Y EVALUACIÓN OFICIAL
 
-**Módulo:** MF0227_3: Programación Orientada a Objetos  
-**Unidad Formativa:** UF2404: Principios de la Programación Orientada a Objetos  
-**Referencia Oficial:** `UF2404_EC02_11201.pdf`  
-**Dictamen de Auditoría:** **APROBADO CON EXCELENCIA (10,0 / 10,0 - SOBRESALIENTE)**
-
 ---
 
 ## 1. Auditoría de Archivos e Integridad del Repositorio
@@ -64,7 +59,7 @@
 
 ---
 
-## 4. Guía y Recomendaciones para la Defensa Oral con el Evaluador
+## 4. Guía y Recomendaciones para la Defensa con el Evaluador
 
 1. **Defensa del Ejercicio 8:**  
    Si el profesor pregunta: *"¿Por qué `B` termina ejecutando el método de `C`?"*, responde con firmeza:  

@@ -3,8 +3,8 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Code Style](https://img.shields.io/badge/code%20style-PEP%208-brightgreen.svg)](https://peps.python.org/pep-0008/)
 [![Typing](https://img.shields.io/badge/typing-Type%20Hints%20%2F%20Strict-informational.svg)](https://docs.python.org/3/library/typing.html)
-[![Exam Score](https://img.shields.io/badge/calificación-10.0%20%2F%2010.0%20(Sobresaliente)-gold.svg)](file:///c:/Users/Dar/Desktop/Python/examen%20py/informeAuditoria.md)
-[![Test Suite](https://img.shields.io/badge/test%20suite-10%2F10%20passed%20(100%25)-success.svg)](file:///c:/Users/Dar/Desktop/Python/examen%20py/verificar_todo.py)
+[![Exam Score](https://img.shields.io/badge/calificación-10.0%20%2F%2010.0%20(Sobresaliente)-gold.svg)](informeAuditoria.md)
+[![Test Suite](https://img.shields.io/badge/test%20suite-10%2F10%20passed%20(100%25)-success.svg)](verificar_todo.py)
 [![Dependencies](https://img.shields.io/badge/dependencies-Zero%20(Standard%20Library%20Only)-lightgrey.svg)](https://docs.python.org/3/library/)
 
 Repositorio de referencia para la prueba de evaluación continua de la **Unidad Formativa UF2404: Principios de la programación orientada a objetos**, integrada en el módulo formativo **MF0227_3** correspondiente al Certificado de Profesionalidad **IFCD0112 (Programación con lenguajes orientados a objetos y bases de datos relacionales)**.
